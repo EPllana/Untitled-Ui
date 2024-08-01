@@ -864,6 +864,9 @@ span {
     .catalog{
         padding: 0px 16px 0px 16px;
     }
+    .logo{
+        margin-left: 5px;
+    }
     .logo1, .logo2 ,.logo3 ,.logo4 ,.logo5, .logo7 img {
         width: 100%;
     }
@@ -1149,7 +1152,6 @@ span {
 .nav-links.active{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     gap: 10px;
     padding-right: 16px;
     margin-right: 16px;
@@ -1172,6 +1174,15 @@ span {
     padding-left: 0px;
 }
 }
+@media (max-width: 350px) {
+    
+    .nav-links.active{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; 
+}
+
+}
 @media (max-width: 300px) {
     nav{
         position: static;
@@ -1179,5 +1190,5 @@ span {
     .copyright p{
         padding-left: 0px;
     }
-   
+
 }
