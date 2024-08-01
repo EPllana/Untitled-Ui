@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <title>Untitled-Ui</title>
+</head>
+<body>
+<div class="container">
+    <div class="navbar">
+        <div class="logo">
+        <img src="assets/images/Logomark.svg" alt="">
+        <svg xmlns="http://www.w3.org/2000/svg" width="101" height="32" viewBox="0 0 101 32" fill="none">
+            <path d="M10.0037 8.45459H12.6386V17.9574C12.6386 18.9991 12.3924 19.9153 11.9 20.706C11.4123 21.4967 10.7258 22.1146 9.84034 22.5597C8.95492 23 7.92036 23.2202 6.73664 23.2202C5.5482 23.2202 4.51127 23 3.62585 22.5597C2.74043 22.1146 2.05388 21.4967 1.56619 20.706C1.0785 19.9153 0.834656 18.9991 0.834656 17.9574V8.45459H3.4696V17.7373C3.4696 18.3433 3.60217 18.8831 3.86733 19.3566C4.13721 19.8301 4.516 20.2017 5.00369 20.4716C5.49138 20.7368 6.06903 20.8694 6.73664 20.8694C7.40426 20.8694 7.98191 20.7368 8.4696 20.4716C8.96202 20.2017 9.34081 19.8301 9.60596 19.3566C9.87111 18.8831 10.0037 18.3433 10.0037 17.7373V8.45459Z" fill="#101828"/>
+            <path d="M17.96 16.608V23H15.389V12.091H17.8464V13.9446H17.9742C18.2252 13.3339 18.6253 12.8485 19.1745 12.4887C19.7285 12.1288 20.4127 11.9489 21.2271 11.9489C21.9799 11.9489 22.6357 12.1099 23.1944 12.4319C23.7578 12.7538 24.1934 13.2202 24.5012 13.831C24.8137 14.4418 24.9676 15.1828 24.9629 16.054V23H22.3918V16.4517C22.3918 15.7226 22.2024 15.152 21.8236 14.7401C21.4496 14.3282 20.9311 14.1222 20.2682 14.1222C19.8184 14.1222 19.4183 14.2216 19.068 14.4205C18.7223 14.6146 18.4501 14.8964 18.2512 15.2657C18.0571 15.635 17.96 16.0824 17.96 16.608Z" fill="#101828"/>
+            <path d="M33.0239 12.091V14.0796H26.7526V12.091H33.0239ZM28.3009 9.47732H30.8719V19.7188C30.8719 20.0644 30.924 20.3296 31.0282 20.5142C31.1371 20.6942 31.2791 20.8173 31.4543 20.8836C31.6295 20.9499 31.8236 20.983 32.0367 20.983C32.1977 20.983 32.3445 20.9712 32.4771 20.9475C32.6144 20.9238 32.7185 20.9025 32.7896 20.8836L33.2228 22.8935C33.0855 22.9409 32.889 22.9929 32.6333 23.0498C32.3824 23.1066 32.0746 23.1397 31.71 23.1492C31.0661 23.1681 30.4861 23.0711 29.97 22.858C29.4539 22.6402 29.0443 22.304 28.7413 21.8495C28.443 21.3949 28.2962 20.8267 28.3009 20.1449V9.47732Z" fill="#101828"/>
+            <path d="M35.1741 23V12.091H37.7452V23H35.1741ZM36.4668 10.5427C36.0596 10.5427 35.7092 10.4077 35.4156 10.1378C35.1221 9.86321 34.9753 9.53413 34.9753 9.15061C34.9753 8.76235 35.1221 8.43328 35.4156 8.1634C35.7092 7.88878 36.0596 7.75146 36.4668 7.75146C36.8787 7.75146 37.2291 7.88878 37.5179 8.1634C37.8115 8.43328 37.9582 8.76235 37.9582 9.15061C37.9582 9.53413 37.8115 9.86321 37.5179 10.1378C37.2291 10.4077 36.8787 10.5427 36.4668 10.5427Z" fill="#101828"/>
+            <path d="M45.8364 12.091V14.0796H39.5651V12.091H45.8364ZM41.1134 9.47732H43.6844V19.7188C43.6844 20.0644 43.7365 20.3296 43.8407 20.5142C43.9496 20.6942 44.0916 20.8173 44.2668 20.8836C44.442 20.9499 44.6362 20.983 44.8492 20.983C45.0102 20.983 45.157 20.9712 45.2896 20.9475C45.4269 20.9238 45.531 20.9025 45.6021 20.8836L46.0353 22.8935C45.898 22.9409 45.7015 22.9929 45.4458 23.0498C45.1949 23.1066 44.8871 23.1397 44.5225 23.1492C43.8786 23.1681 43.2986 23.0711 42.7825 22.858C42.2664 22.6402 41.8568 22.304 41.5538 21.8495C41.2555 21.3949 41.1087 20.8267 41.1134 20.1449V9.47732Z" fill="#101828"/>
+            <path d="M50.792 8.45459V23H48.221V8.45459H50.792Z" fill="#101828"/>
+            <path d="M58.2654 23.2131C57.1717 23.2131 56.2271 22.9858 55.4316 22.5313C54.6409 22.072 54.0325 21.4233 53.6063 20.5853C53.1802 19.7425 52.9671 18.7505 52.9671 17.6094C52.9671 16.4873 53.1802 15.5024 53.6063 14.6549C54.0372 13.8026 54.6385 13.1397 55.4103 12.6662C56.1821 12.188 57.0888 11.9489 58.1305 11.9489C58.8028 11.9489 59.4373 12.0578 60.0339 12.2756C60.6352 12.4887 61.1655 12.8201 61.6248 13.2699C62.0888 13.7197 62.4534 14.2927 62.7185 14.9887C62.9837 15.68 63.1163 16.5038 63.1163 17.4603V18.2486H54.1745V16.5157H60.6518C60.647 16.0232 60.5405 15.5853 60.3322 15.2017C60.1238 14.8135 59.8326 14.5081 59.4586 14.2856C59.0893 14.063 58.6584 13.9517 58.166 13.9517C57.6404 13.9517 57.1788 14.0796 56.781 14.3353C56.3833 14.5862 56.0732 14.9177 55.8506 15.3296C55.6328 15.7368 55.5216 16.1842 55.5168 16.6719V18.1847C55.5168 18.8192 55.6328 19.3637 55.8648 19.8182C56.0968 20.268 56.4212 20.6137 56.8379 20.8552C57.2545 21.0919 57.7422 21.2103 58.3009 21.2103C58.675 21.2103 59.0135 21.1582 59.3165 21.054C59.6196 20.9451 59.8824 20.7865 60.1049 20.5782C60.3274 20.3698 60.4955 20.1118 60.6092 19.804L63.0097 20.0739C62.8582 20.7084 62.5694 21.2624 62.1433 21.7358C61.7219 22.2046 61.1821 22.5692 60.5239 22.8296C59.8658 23.0853 59.1129 23.2131 58.2654 23.2131Z" fill="#101828"/>
+            <path d="M69.3396 23.1918C68.4826 23.1918 67.7156 22.9716 67.0385 22.5313C66.3614 22.091 65.8264 21.4517 65.4334 20.6137C65.0404 19.7756 64.8439 18.7576 64.8439 17.5597C64.8439 16.3476 65.0427 15.3249 65.4405 14.4915C65.8429 13.6535 66.3851 13.0214 67.0669 12.5952C67.7487 12.1643 68.5087 11.9489 69.3467 11.9489C69.9859 11.9489 70.5115 12.0578 70.9234 12.2756C71.3354 12.4887 71.6621 12.7467 71.9035 13.0498C72.145 13.3481 72.332 13.6298 72.4646 13.8949H72.5712V8.45459H75.1493V23H72.6209V21.2813H72.4646C72.332 21.5464 72.1403 21.8282 71.8893 22.1265C71.6384 22.42 71.307 22.671 70.895 22.8793C70.4831 23.0876 69.9646 23.1918 69.3396 23.1918ZM70.057 21.0824C70.6015 21.0824 71.0655 20.9357 71.449 20.6421C71.8325 20.3438 72.1237 19.9295 72.3226 19.3992C72.5214 18.8689 72.6209 18.251 72.6209 17.5455C72.6209 16.84 72.5214 16.2268 72.3226 15.706C72.1284 15.1852 71.8396 14.7803 71.4561 14.4915C71.0773 14.2027 70.6109 14.0583 70.057 14.0583C69.484 14.0583 69.0058 14.2074 68.6223 14.5057C68.2388 14.804 67.95 15.216 67.7558 15.7415C67.5617 16.2671 67.4646 16.8684 67.4646 17.5455C67.4646 18.2273 67.5617 18.8357 67.7558 19.3708C67.9547 19.9011 68.2459 20.3201 68.6294 20.6279C69.0177 20.9309 69.4935 21.0824 70.057 21.0824Z" fill="#101828"/>
+            <path d="M92.1326 8.45459H94.7675V17.9574C94.7675 18.9991 94.5213 19.9153 94.0289 20.706C93.5412 21.4967 92.8547 22.1146 91.9692 22.5597C91.0838 23 90.0493 23.2202 88.8655 23.2202C87.6771 23.2202 86.6402 23 85.7548 22.5597C84.8693 22.1146 84.1828 21.4967 83.6951 20.706C83.2074 19.9153 82.9636 18.9991 82.9636 17.9574V8.45459H85.5985V17.7373C85.5985 18.3433 85.7311 18.8831 85.9962 19.3566C86.2661 19.8301 86.6449 20.2017 87.1326 20.4716C87.6203 20.7368 88.1979 20.8694 88.8655 20.8694C89.5332 20.8694 90.1108 20.7368 90.5985 20.4716C91.0909 20.2017 91.4697 19.8301 91.7349 19.3566C92 18.8831 92.1326 18.3433 92.1326 17.7373V8.45459Z" fill="#101828"/>
+            <path d="M100.266 8.45459V23H97.6315V8.45459H100.266Z" fill="#101828"/>
+          </svg>
+    </div>
+    <nav>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="nav-links" id="nav-links">
+            <a href="Home">Home</a>
+            <a href="Products">Products<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path d="M5 7.5L10 12.5L15 7.5" stroke="#475467" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg></a>
+            <a href="Resources">Resources<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path d="M5 7.5L10 12.5L15 7.5" stroke="#475467" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg></a>
+            <a href="Pricing" style="margin-right: 0px;">Pricing</a>
+        </div>
+    </nav>
+    </div>
+    <div class="profile">
+        <img src="assets/images/Dropdown.svg" alt="">
+    </div>
+</div>
+<hr>
+<div class="new">
+    <div class="feature">
+        <div class="check">
+            <h3>New feature</h3>
+        </div>
+        <div class="team1">
+            <h3>Check out the team dashboard <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+                <path d="M3.83334 8.00016H13.1667M13.1667 8.00016L8.5 3.3335M13.1667 8.00016L8.5 12.6668" stroke="#9E77ED" stroke-width="1.3333" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg></h3>
+        </div>
+    </div>
+    <div class="beauty">
+        <h2>Beautiful analytics to grow smarter</h2>
+        <p>Powerful, self-serve product and growth analytics to help you convert, engage, and retain more users. Trusted by over 4,000 startups.</p>
+    </div>
+    <div class="buttons">
+        <button type="button" class="btn btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none" style="margin-right: 12px;">
+            <path d="M12.5 22C18.0228 22 22.5 17.5228 22.5 12C22.5 6.47715 18.0228 2 12.5 2C6.97715 2 2.5 6.47715 2.5 12C2.5 17.5228 6.97715 22 12.5 22Z" stroke="#344054" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M10.5 8L16.5 12L10.5 16V8Z" stroke="#344054" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Demo</button>
+        <button type="button" class="btn btn-primary">Sign Up</button>
+    </div>
+    <div class="macbook">
+    <img src="assets/images/Macbook Pro 16 mockup.svg" alt="">
+    <hr>
+</div>
+<div class="layers">
+    <div class="join">
+        <p>Join 4,000+ companies already growing</p>
+    </div>
+</div>
+    <div class="catalog">
+            <img src="assets/images/Company logo.svg" alt="img1"class="logo1">
+            <img src="assets/images/Company logo2.svg" alt="img2" class="logo2">
+            <img src="assets/images/Company logo3.svg" alt="img3" class="logo3">
+            <img src="assets/images/Company logo4.svg" alt="img4" class="logo4">
+            <img src="assets/images/Company logo5.svg" alt="img" style="margin-right: 12px;" class="logo5">
+            <img src="assets/images/Company logo7.svg" alt="logo7" class="logo7"> 
+    </div>
+    <hr style="max-width: 1440px; margin-bottom: 96px;">
+</div>
+</div>
+<div class="future">
+    <p style="margin-bottom: 12px;">Features</p>
+    <h2 style="color: var(--Gray-900, #101828);;">Analytics that feels like it’s from the future</h2>
+    <p class="Powerful" style="color: var(--Gray-600, #475467); margin-bottom: 64px;  font-style: normal;font-weight: 400; line-height: 30px">Powerful, self-serve product and growth analytics to help you convert, engage, and retain more users. Trusted by over 4,000 startups.</p>
+</div>
+
+<div class="team">
+    <div class="share">
+        <img src="assets/images/Featured icon share.svg" alt="">
+        <h4>Share team inboxes</h4>
+        <p>Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.</p>
+    </div>
+    <div class="share">
+        <img src="assets/images/Featured icon flashj.svg" alt="">
+        <h4>Deliver instant answers</h4>
+        <p>An all-in-one customer service platform that helps you balance everything your customers need to be happy.</p>
+    </div>
+    <div class="share">
+        <img src="assets/images/Featured icon barchart.svg" alt="">
+        <h4>Manage your team with reports</h4>
+        <p>Measure what matters with Untitled’s easy-to-use reports. You can filter, export, and drilldown on the data in a couple clicks.</p>
+    </div>
+    
+</div>
+<div class="team">
+    <div class="share">
+        <img src="assets/images/Featured icon smile.svg" alt="">
+        <h4>Connect with customers</h4>
+        <p>Solve a problem or close a sale in real-time with chat. If no one is available, customers are seamlessly routed to email without confusion.</p>
+    </div>
+    <div class="share">
+        <img src="assets/images//Featured icon command.svg" alt="">
+        <h4>Connect the tools you already use</h4>
+        <p>Explore 100+ integrations that make your day-to-day workflow more efficient and familiar. Plus, our extensive developer tools.</p>
+    </div>
+    <div class="share">
+        <img src="assets/images/Featured icon message.svg" alt="">
+        <h4>Our people make the difference</h4>
+        <p>We’re an extension of your customer service team, and all of our resources are free. Chat to our friendly team 24/7 when you need help.</p>
+    </div>
+</div>
+<div class="project">
+    <div class="using">
+        <img src="assets/images/Company logo2.svg" alt="sisyphus" class="sisyphus">
+        <h2>We’ve been using Untitled to kick start every new project and can’t imagine working without it.</h2>
+        <img src="assets/images/Avatar.svg" alt="" class="avatar">
+        <h5>Candice Wu</h5>
+        <p>Product Manager, Sisyphus</p>
+    </div>
+</div>
+<div class="advanced">
+    <div class="future">
+        <p style="margin-bottom: 12px; border-radius: 16px;background: var(--Brand-50, #F9F5FF);padding: 4px 12px;">Features</p>
+        <h2 style="color: var(--Gray-900, #101828);">Cutting-edge features for advanced analytics</h2>
+        <p class="Powerful" style="color: var(--Gray-600, #475467); margin-bottom: 64px;  font-style: normal;font-weight: 400; line-height: 30px; max-width: 768px; width: 100%;">Powerful, self-serve product and growth analytics to help you convert, engage, and retain more users. Trusted by over 4,000 startups.</p>
+    </div>
+    <div class="content">
+    <img src="assets/images/Content.svg" alt="" class="laptop">
+    <img src="assets/images/iPhone 12 Pro mockup.svg" alt="" class="iPhone">
+  </div>
+  <div class="team" style="margin-bottom: 64px;">
+    <div class="share">
+        <img src="assets/images/Featured icon share.svg" alt="">
+        <h4>Share team inboxes</h4>
+        <p style="margin-bottom: 20px;">Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.</p>
+        <button>Learn More <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+            <path d="M4.16669 10H15.8334M15.8334 10L10 4.16669M15.8334 10L10 15.8334" stroke="#6941C6" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg></button>
+    </div>
+      <div class="share">
+          <img src="assets/images/Featured icon flashj.svg" alt="">
+          <h4>Deliver instant answers</h4>
+          <p style="margin-bottom: 20px;">An all-in-one customer service platform that helps you balance everything your customers need to be happy.</p>
+          <button>Learn More<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path d="M4.16669 10H15.8334M15.8334 10L10 4.16669M15.8334 10L10 15.8334" stroke="#6941C6" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg></button>
+      </div>
+      <div class="share">
+          <img src="assets/images/Featured icon barchart.svg" alt="">
+          <h4>Manage your team with reports</h4>
+          <p style="margin-bottom: 20px;">Measure what matters with Untitled’s easy-to-use reports. You can filter, export, and drilldown on the data in a couple clicks.</p>
+          <button>Learn More<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path d="M4.16669 10H15.8334M15.8334 10L10 4.16669M15.8334 10L10 15.8334" stroke="#6941C6" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg></button>
+      </div>
+  </div>
+  <hr>
+  </div>
+  <div class="asked">
+      <h2>Frequently asked questions</h2>
+      <h6>Everything you need to know about the product and billing.</h6>
+  </div>
+  <div class="faq-container">
+    <div class="faq-item">
+      <div class="faq-question">
+          <span>Is there a free trial available?</span>
+          <svg class="faq-icon plus-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path d="M12 8V16M8 12H16M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z" stroke="#7F56D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <svg class="faq-icon minus-icon" style="display: none;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path d="M8 12H16M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z" stroke="#7F56D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+      </div>
+      <div class="faq-answer">Yes, you can try us for free for 30 days. If you want, we'll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</div>
+  </div>
+      <div class="faq-item">
+        <div class="faq-question">
+            <span>Can I change my plan later?</span>
+            <svg class="faq-icon plus-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path d="M12 8V16M8 12H16M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z" stroke="#7F56D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <svg class="faq-icon minus-icon" style="display: none;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path d="M8 12H16M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z" stroke="#7F56D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+        <div class="faq-answer">Yes, you can change your plan at any time from your account settings.</div>
+    </div>
+      <div class="faq-item">
+        <div class="faq-question">
+            <span>What is your cancellation policy?</span>
+            <svg class="faq-icon plus-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path d="M12 8V16M8 12H16M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z" stroke="#7F56D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <svg class="faq-icon minus-icon" style="display: none;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path d="M8 12H16M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z" stroke="#7F56D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+        <div class="faq-answer">You can cancel your subscription at any time. There are no cancellation fees.</div>
+    </div>
+      <div class="faq-item">
+        <div class="faq-question">
+            <span>Can other info be added to an invoice?</span>
+            <svg class="faq-icon plus-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path d="M12 8V16M8 12H16M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z" stroke="#7F56D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <svg class="faq-icon minus-icon" style="display: none;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path d="M8 12H16M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z" stroke="#7F56D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+        <div class="faq-answer">Yes, additional information can be added to your invoice upon request.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">
+          <span>How do I change my account email?</span>
+          <svg class="faq-icon plus-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path d="M12 8V16M8 12H16M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z" stroke="#7F56D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <svg class="faq-icon minus-icon" style="display: none;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path d="M8 12H16M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z" stroke="#7F56D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+      </div>
+      <div class="faq-answer">Billing is done on a monthly basis. You will be charged at the beginning of each billing cycle.</div>
+  </div>
+      <div class="faq-item">
+        <div class="faq-question" style="border: 0px;">
+            <span>How do I change my account email?</span>
+            <svg class="faq-icon plus-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path d="M12 8V16M8 12H16M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z" stroke="#7F56D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <svg class="faq-icon minus-icon" style="display: none;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path d="M8 12H16M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z" stroke="#7F56D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+        <div class="faq-answer">You can change your account email from the account settings page.</div>
+    </div>
+  </div>
+  <div class="questions">
+    <img src="assets/images/Avatar group.svg" alt="">
+    <h4>Still have questions?</h4>
+    <p>Can’t find the answer you’re looking for? Please chat to our friendly team.</p>
+    <button type="button" class="btn btn-primary" style="padding: 12px 20px; justify-content: center;align-items: center;font-size: 16px;font-style: normal;font-weight: 600;line-height: 24px;color: white;">Get In Touch</button>
+  </div>
+  <hr>
+  <div class="launch">
+    <p>Launch faster</p>
+    <h2>Build something great</h2>
+    <h4>We’ve done all the heavy lifting so you don’t have to — get all the data you need to launch and grow your business faster.</h4>
+  </div>
+  <div class="build">
+  <div class="global">
+    <div class="return">
+      <div class="firstreturn">
+      <h3>4,000+</h3>
+      <h6>Global customers</h6>
+      <p>We’ve helped over 4,000 amazing global companies.</p>
+    </div>
+      <div class="secondreturn">
+        <h3>600%</h3>
+        <h6>Return on investment</h6>
+        <p>Our customers have reported an average of ~600% ROI.</p>
+      </div>
+    </div>
+    <div class="return">
+      <div class="firstreturn">
+      <h3>10k</h3>
+      <h6>Global downloadss</h6>
+      <p>Our app has been downloaded over 10k times.</p>
+    </div>
+      <div class="secondreturn">
+        <h3>200+</h3>
+        <h6>5-star reviews</h6>
+        <p>We’re proud of our 5-star rating with over 200 reviews.</p>
+      </div>
+    </div>
+  </div>
+    <img src="assets/images/global.png" alt="image">
+  </div>
+  <div class="join">
+    <h2>Start your free trial</h2>
+    <p>Join over 4,000+ startups already growing with Untitled.</p>
+    <div class="secondbuttons">
+    <button type="button" class="btn btn-outline-secondary">Learn More</button>
+    <button type="button" class="btn btn-primary" style="padding: 10px 18px; justify-content: center;align-items: center;font-size: 16px;font-style: normal;font-weight: 600;line-height: 24px;color: white;">Get Started</button>
+  </div>
+</div>
+<div class="footer">
+  <div class="social">
+    <div class="column1">
+      <h6>Product</h6>
+      <p>Overview</p>
+      <p>Features</p>
+      <div class="solutions"><p>Solutions</p><h5>New</h5></div>
+      <p>Tutorials</p>
+      <p>Pricing</p>
+      <p>Releases</p>
+    </div>
+    <div class="column1">
+      <h6>Company</h6>
+      <p>About Us</p>
+      <p>Careers</p>
+      <p>Press</p>
+      <p>News</p>
+      <p>Media kit</p>
+      <p>Contact</p>
+    </div>
+    <div class="column1">
+      <h6>Resources</h6>
+      <p>Blog</p>
+      <p>Newsletter</p>
+      <p>Events</p>
+      <p>Help Center</p>
+      <p>Tutorials</p>
+      <p>Support</p>
+    </div>
+    <div class="column1">
+      <h6>Use cases</h6>
+      <p>Startups</p>
+      <p>Enterprise</p>
+      <p>Government</p>
+      <p>Saas</p>
+      <p>Marketplaces</p>
+      <p>Ecommerce</p>
+    </div>
+    <div class="column1">
+      <h6>Social</h6>
+      <p>Twitter</p>
+      <p>Linkedin</p>
+      <p>Facebook</p>
+      <p>GitHub</p>
+      <p>AngleList</p>
+      <p>Dribble</p>
+    </div>
+    <div class="column1">
+      <h6>Legal</h6>
+      <p>Terms</p>
+      <p>Privacy</p>
+      <p>Cookies</p>
+      <p>Licenses</p>
+      <p>Settings</p>
+      <p>Contact</p>
+    </div>
+  </div>
+</div>
+<hr>
+<div class="copyright">
+  <img src="assets/images/Logo copyright.svg" alt="">
+  <p>© 2077 Untitled UI. All rights reserved. Ernis Pllana</p>
+</div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
